@@ -301,7 +301,6 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extens
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Build.Locator.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -551,3 +550,10 @@ H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\refint\BulkyBookWeb.dll
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.pdb
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.genruntimeconfig.cache
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\ref\BulkyBookWeb.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Build.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.NET.StringTools.dll

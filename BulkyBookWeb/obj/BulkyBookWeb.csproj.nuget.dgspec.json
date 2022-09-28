@@ -4,14 +4,98 @@
     "H:\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {}
   },
   "projects": {
-    "H:\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {
+    "H:\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
-        "projectName": "BulkyBookWeb",
-        "projectPath": "H:\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "projectUniqueName": "H:\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
+        "projectName": "BulkyBook.DataAccess",
+        "projectPath": "H:\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Tahmeed\\.nuget\\packages\\",
-        "outputPath": "H:\\BulkyBook\\BulkyBookWeb\\obj\\",
+        "outputPath": "H:\\BulkyBook\\BulkyBook.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio Shared Component SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tahmeed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "H:\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+                "projectPath": "H:\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "projectName": "BulkyBook.Models",
+        "projectPath": "H:\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj",
+        "packagesPath": "C:\\Users\\Tahmeed\\.nuget\\packages\\",
+        "outputPath": "H:\\BulkyBook\\BulkyBook.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio Shared Component SDK\\NuGetPackages"
@@ -44,28 +128,96 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "projectName": "BulkyBookWeb",
+        "projectPath": "H:\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
+        "packagesPath": "C:\\Users\\Tahmeed\\.nuget\\packages\\",
+        "outputPath": "H:\\BulkyBook\\BulkyBookWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio Shared Component SDK\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tahmeed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "H:\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+                "projectPath": "H:\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.9, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.10, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             },
             "toastr": {
               "target": "Package",
