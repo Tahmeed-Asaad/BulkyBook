@@ -297,10 +297,13 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\WindowsBase.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Humanizer.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MessagePack.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MessagePack.Annotations.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Build.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Build.Framework.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -331,6 +334,7 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -341,6 +345,7 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenera
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Newtonsoft.Json.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\NuGet.Common.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\NuGet.Configuration.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
@@ -530,6 +535,10 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawin
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.csproj.AssemblyReference.cache
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.GeneratedMSBuildEditorConfig.editorconfig
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.AssemblyInfoInputs.cache
@@ -550,10 +559,3 @@ H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\refint\BulkyBookWeb.dll
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.pdb
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.genruntimeconfig.cache
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\ref\BulkyBookWeb.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Build.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Build.Framework.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.NET.StringTools.dll

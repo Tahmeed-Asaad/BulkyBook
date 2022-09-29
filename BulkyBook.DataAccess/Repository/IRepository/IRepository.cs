@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 
 namespace BulkyBook.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
         //Declaring methods from Category Controller Class
-        T GetFirstorDefault(Expression<Func<T, bool>> filter);
-        IEnumerable<T> GetAll();
+        T GetFirstorDefault(Expression<Func<T, bool>> filter, string? includeProperties=null);
+        //includeproperties is being used to display category name from categoryId which is a foregn key in product model class.
+        //Also as we are using DataTable instead of traditional list we need to do this.
+        IEnumerable<T> GetAll(string? includeProperties = null);
         void Add(T entity);
         void Remove(T entity);
 

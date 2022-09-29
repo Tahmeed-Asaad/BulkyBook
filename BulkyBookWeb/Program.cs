@@ -1,7 +1,6 @@
 using BulkyBook.DataAccess.Repository;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBookWeb.DataAccess;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -13,8 +12,8 @@ builder.Services.AddControllersWithViews();
 
 //Linking the database connectionstring of appsettings.json. Also linking the dbcontext class to program.cs 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
-    
-    builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //Injecting IRepository using Scoped. The other two is singleton and transient
 
@@ -25,7 +24,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //Helps to to add changes in layout.cshtml file from bootswatch Theme
-builder.Services.AddRazorPages().AddRazorRuntimeCompilation(); 
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
+//Adding Components for Hot Reload
+
+// Add services to the container.
+//builder.Services.AddServerSideBlazor(); // Add support for Blazor
+//builder.Services.AddRazorPages();       // Add support for .Net Core Razor Pages
 
 var app = builder.Build();
 

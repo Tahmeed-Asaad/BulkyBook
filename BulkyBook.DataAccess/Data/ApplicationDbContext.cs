@@ -6,19 +6,22 @@ using Microsoft.EntityFrameworkCore;
 namespace BulkyBookWeb.DataAccess;
 
 
-    //To inherit DbContext We need to use Microsoft's Entity FrameWork Core
-    public class ApplicationDbContext:DbContext
-    {
-        
+//To inherit DbContext We need to use Microsoft's Entity FrameWork Core
+public class ApplicationDbContext : DbContext
+{
 
-         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     {
 
     }
 
-        //Create Tables here
+    //Create Tables here
 
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<CoverType> CoverTypes { get; set; }
-    }
+    public DbSet<Category> Categories { get; set; }
+    public DbSet<CoverType> CoverTypes { get; set; }
+
+    public DbSet<Product> Products { get; set; }
+ 
+}
 
