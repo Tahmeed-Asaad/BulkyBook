@@ -2,7 +2,9 @@ using BulkyBook.DataAccess.Repository;
 using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBookWeb.DataAccess;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Identity;
+using BulkyBook.Utility;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 builder.Configuration.GetConnectionString("DefaultConnection")));
 
+//DefaultIdentity code auto generated as we used Identity Scalffold
+
+/*builder.Services.AddDefaultIdentity<IdentityUser>()
+    .AddEntityFrameworkStores<ApplicationDbContext>();*/
+
+//Instead of Deafult Identity, Use Identity as we need more  roles for our users.Also, Custom Identity needs explicitly generated tokens
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProviders()
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+
 //Injecting IRepository using Scoped. The other two is singleton and transient
 
 //builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -22,6 +36,9 @@ builder.Configuration.GetConnectionString("DefaultConnection")));
 //Instead of Category Repository,now using UnitofWork for efficinecy
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+//Needed to add it to create roles in registration.cs
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
 //Helps to to add changes in layout.cshtml file from bootswatch Theme
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
@@ -47,7 +64,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+//Authentication came from adding identity scaffold item. Middleware order is important. Authentication should come before
+app.UseAuthentication();;
+
 app.UseAuthorization();
+
+app.MapRazorPages();
 
 app.MapControllerRoute(
     name: "default",

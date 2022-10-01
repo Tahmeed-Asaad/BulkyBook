@@ -22,8 +22,6 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cors.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -107,14 +105,11 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Http.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
-H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -297,6 +292,9 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\refs\WindowsBase.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Humanizer.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MessagePack.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MessagePack.Annotations.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
@@ -328,6 +326,9 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relatio
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -537,8 +538,10 @@ H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Securi
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Utility.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Utility.pdb
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.csproj.AssemblyReference.cache
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.GeneratedMSBuildEditorConfig.editorconfig
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.AssemblyInfoInputs.cache
@@ -559,3 +562,4 @@ H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\refint\BulkyBookWeb.dll
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.pdb
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.genruntimeconfig.cache
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\ref\BulkyBookWeb.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

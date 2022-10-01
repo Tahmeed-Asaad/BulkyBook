@@ -17,7 +17,7 @@ namespace BulkyBook.DataAccess.Repository
         //Save method is implemented inside unit of work. It was here before
         void ICategoryRepository.Update(Category obj)
         {
-            _db.Update(obj);
+            _db.Categories.Update(obj);
         }
     }
 }
