@@ -8,7 +8,7 @@ namespace BulkyBook.DataAccess.Repository.IRepository
         T GetFirstorDefault(Expression<Func<T, bool>> filter, string? includeProperties=null);
         //includeproperties is being used to display category name from categoryId which is a foregn key in product model class.
         //Also as we are using DataTable instead of traditional list we need to do this.
-        IEnumerable<T> GetAll(string? includeProperties = null);
+        IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter=null, string? includeProperties = null);
         void Add(T entity);
         void Remove(T entity);
 
