@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kp65hS4pL1BwlQu6WdnlCm5EfpuVPTS0bMPJqHAkNPU=",
+  "Hash": "h+w0IbQFYkuwSqE7ENS54kjSsabgAwEl9mGMrTCLLMM=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -1885,6 +1885,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "H:\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/lawn_leaf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lawn_leaf.jpg"
     },
     {
       "Identity": "H:\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\121650cc-fb2c-44dc-8693-b836ba7c15e9.jpg",

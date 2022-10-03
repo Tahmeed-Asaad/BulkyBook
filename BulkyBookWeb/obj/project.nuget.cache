@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0nwXDEe9dLPbpK3cy02rbRPPjdpj3UMAm5fV3EpWvOGPvhhO8PPpqJEDV6YROYtswCviUMfAmSg5A4m5YdM6Lw==",
+  "dgSpecHash": "v69AUkTxIRsfQhqiUaF4reLXI9FL9Fav5vQx35+z92ecvWbTK9Z1yQACSiOGhHLY7+FIEeMRLuvFFqaFRGupyQ==",
   "success": true,
   "projectFilePath": "H:\\BulkyBook\\BulkyBookWeb\\BulkyBookWeb.csproj",
   "expectedPackageFiles": [
@@ -140,6 +140,7 @@
     "C:\\Users\\Tahmeed\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\stripe.net\\40.11.0\\stripe.net.40.11.0.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

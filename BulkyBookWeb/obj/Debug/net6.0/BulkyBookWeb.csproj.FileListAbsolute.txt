@@ -563,3 +563,4 @@ H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.pdb
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.genruntimeconfig.cache
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\ref\BulkyBookWeb.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Stripe.net.dll

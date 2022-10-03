@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using BulkyBook.Utility;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
 
 builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Mapping StripeSettings class from utility to stripe section in appsettings.json for payment in shopping cart summary
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
 //DefaultIdentity code auto generated as we used Identity Scalffold
 
@@ -76,6 +80,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 
 //Authentication came from adding identity scaffold item. Middleware order is important. Authentication should come before
 app.UseAuthentication();;
