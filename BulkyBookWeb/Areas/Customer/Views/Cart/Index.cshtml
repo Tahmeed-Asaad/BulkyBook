@@ -16,41 +16,46 @@
 			</div>
 
 			<div class="card-body">
-				@foreach(var item in Model.ListCart){
-				<div class="row">
-					<div class="d-none d-lg-block col-lg-1 text-center py-2">
-						<img src="@item.Product.ImageURL" class="rounded" width="100%" />
-					</div>
-					<div class="col-12 col-lg-6 pt-md-3">
-						<h5><strong>@item.Product.Title</strong></h5>
-							<p><small>@Html.Raw(item.Product.Description)</small></p>
-					</div>
-					<div class="col-12  col-lg-5 text-center row">
-						<div class="col-4 text-md-right pt-4">
-								<h6><strong>@item.Price Taka
-									<span class="text-muted">&nbsp;x&nbsp;</span> @item.Count </strong></h6>
+				@foreach (var item in Model.ListCart)
+				{
+					<div class="row">
+						<div class="d-none d-lg-block col-lg-1 text-center py-2">
+							<img src="@item.Product.ImageURL" class="rounded" width="100%" />
 						</div>
-						<div class="col-6 col-sm-4 col-lg-6 pt-2">
-							<div class="w-75 btn-group" role="group">
-								<a asp-action="Plus" asp-route-cartId="@item.Id" class="btn btn-primary"> 
-									<i class="bi bi-plus-square"></i>
-								</a> &nbsp;
-								<a asp-action="Minus" asp-route-cartId="@item.Id" class="btn btn-warning">
-									<i class="bi bi-dash-square"></i>
+						<div class="col-12 col-lg-6 pt-md-3">
+							<h5><strong>@item.Product.Title</strong></h5>
+							<p><small>@Html.Raw(item.Product.Description)</small></p>
+						</div>
+						<div class="col-12  col-lg-5 text-center row">
+							<div class="col-4 text-md-right pt-4">
+								<h6>
+									
+										<span class="text-muted"></span> @item.Price x @item.Count=@(item.Price*item.Count)
+									
+								</h6>
+							</div>
+							<div class="col-6 col-sm-4 col-lg-6 pt-2">
+								<div class="w-75 btn-group" role="group">
+									<a asp-action="Plus" asp-route-cartId="@item.Id" class="btn btn-primary">
+										<i class="bi bi-plus-square"></i>
+									</a> &nbsp;
+									<a asp-action="Minus" asp-route-cartId="@item.Id" class="btn btn-warning">
+										<i class="bi bi-dash-square"></i>
+									</a>
+								</div>
+
+							</div>
+							<div class="col-2 col-sm-4 col-lg-2 text-right pt-2">
+								<a asp-action="Remove" asp-route-cartId="@item.Id" class="btn btn-danger">
+									<i class="bi bi-trash-fill"></i>
 								</a>
 							</div>
-
-						</div>
-						<div class="col-2 col-sm-4 col-lg-2 text-right pt-2">
-								<a asp-action="Remove" asp-route-cartId="@item.Id" class="btn btn-danger">
-								<i class="bi bi-trash-fill"></i>
-							</a>
 						</div>
 					</div>
-				</div>
-				<hr />
+					<hr />
 
 				}
+				
 
 				<div class="row">
 					<div class="col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8 pr-4">
