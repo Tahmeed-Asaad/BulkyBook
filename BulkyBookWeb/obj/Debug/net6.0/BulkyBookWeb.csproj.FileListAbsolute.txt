@@ -564,3 +564,7 @@ H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.genruntimeconfig.cache
 H:\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\ref\BulkyBookWeb.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Stripe.net.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MailKit.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\MimeKit.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+H:\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll

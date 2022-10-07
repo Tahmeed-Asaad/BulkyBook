@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@using BulkyBook.Utility
+@inject IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -18,7 +21,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">BulkyBooKWeb</a>
+                <a class="navbar-brand" asp-area="Customer" asp-controller="Home" asp-action="Index">BulkyBooKWeb</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,13 +37,17 @@
                             <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
               
+
+                        @if(User.IsInRole(SD.Role_Admin))
+                        
+                        {
                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Content Management</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
                                 <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">Cover Type</a>
                                 <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
-                                <a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a>
+                                
 
 
 
@@ -50,8 +57,14 @@
                                 
                                 <a class="dropdown-item" href="#">Separated link</a>*@
                                 <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Company" asp-action="Index">Company</a>
+                                     <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Register">Create User</a>
                             </div>
                         </li>
+
+                        }
+
 
                         <li class="nav-item">
                             <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">
@@ -60,12 +73,17 @@
                             </a>
                         </li>
 
+                       
+                        
+
                         <li class="nav-item">
-                        <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index"> 
-                            
-                            <i class="bi bi-cart"></i>
+                        <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+
+                                    @await Component.InvokeAsync("ShoppingCart")
                             </a>
                         </li>
+
+                       
 
                       
 
@@ -75,10 +93,7 @@
                      <partial name="_LoginPartial"/>
 
 
-                    <form class="d-flex">
-                        <input class="form-control me-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                    
                 </div>
             </div>
         </nav>

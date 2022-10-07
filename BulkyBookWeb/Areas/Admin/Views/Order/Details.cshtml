@@ -279,26 +279,31 @@
 
 
 
-							@if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
-							{
-								if(Model.OrderHeader.OrderStatus==SD.PaymentStatusApproved)
-								{
-									<input type="submit" asp-action="StartProcessing" class="btn btn-primary form-control my-1" value="Start Processing" />
-								}
-								if(Model.OrderHeader.OrderStatus==SD.StatusInProcess)
-								{
-									<input type="submit" asp-action="ShipOrder" onclick="return ValidateInput()" class="btn btn-primary form-control my-1" value="Ship Order" />
-								}
-								if(Model.OrderHeader.OrderStatus==SD.StatusShipped && Model.OrderHeader.PaymentStatus==SD.PaymentStatusDelayedPayment)
+							@if(Model.OrderHeader.OrderStatus==SD.StatusShipped && Model.OrderHeader.PaymentStatus==SD.PaymentStatusDelayedPayment)
 								{
 							<input type="submit" class="btn btn-success form-control my-1" value="Pay Now" />
 								}
-							if (Model.OrderHeader.OrderStatus != SD.StatusRefunded && Model.OrderHeader.OrderStatus != SD.StatusCancelled){
-							  <input type="submit" asp-action="CancelOrder" class="btn btn-danger form-control my-1" value="Cancel Order" />
 
+							@if (User.IsInRole(SD.Role_Admin) || User.IsInRole(SD.Role_Employee))
+							
+							{
+								if (Model.OrderHeader.OrderStatus == SD.PaymentStatusApproved)
+								{
+									<input type="submit" asp-action="StartProcessing" class="btn btn-primary form-control my-1" value="Start Processing" />
+								}
+								if (Model.OrderHeader.OrderStatus == SD.StatusInProcess)
+								{
+									<input type="submit" asp-action="ShipOrder" onclick="return ValidateInput()" class="btn btn-primary form-control my-1" value="Ship Order" />
+								}
+
+								if (Model.OrderHeader.OrderStatus != SD.StatusRefunded && Model.OrderHeader.OrderStatus != SD.StatusCancelled)
+								{
+									<input type="submit" asp-action="CancelOrder" class="btn btn-danger form-control my-1" value="Cancel Order" />
+
+								}
 							}
 
-							}
+							
 						</div>
 					</div>
 				</div>

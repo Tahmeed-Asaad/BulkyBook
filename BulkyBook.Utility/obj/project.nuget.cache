@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HfBnz4hiILhkwTK4Mw0NfETXO2xdgMSGBRM5tmoQl2J9mhG2wwXiaA1sLiTFa4G7jJaEGX3ePlBoDLTaMVM9uQ==",
+  "dgSpecHash": "8fntPzRLIrUdjLthICYPf+588LulzPmcgxJG7SKp22XrQKb/rRv2m5k8ycBC5DBzTEH5wM4JUtJkJ396aZ0gEg==",
   "success": true,
   "projectFilePath": "H:\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\mailkit\\2.15.0\\mailkit.2.15.0.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\6.0.9\\microsoft.aspnetcore.authentication.facebook.6.0.9.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.9\\microsoft.aspnetcore.cryptography.internal.6.0.9.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.9\\microsoft.aspnetcore.cryptography.keyderivation.6.0.9.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.9\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.9.nupkg.sha512",
@@ -25,9 +27,17 @@
     "C:\\Users\\Tahmeed\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\mimekit\\2.15.1\\mimekit.2.15.1.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\portable.bouncycastle\\1.8.10\\portable.bouncycastle.1.8.10.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Tahmeed\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\Tahmeed\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\system.reflection.typeextensions\\4.4.0\\system.reflection.typeextensions.4.4.0.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
+    "C:\\Users\\Tahmeed\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }

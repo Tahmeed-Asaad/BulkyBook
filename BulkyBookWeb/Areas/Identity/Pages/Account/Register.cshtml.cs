@@ -190,6 +190,8 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             {
                 var user = CreateUser();
 
+                string TrimmedUserName = Input.Name.Replace(' ', '_');
+
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
@@ -244,7 +246,15 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
+                        if (User.IsInRole(SD.Role_Admin))
+                        {
+                            TempData["Success"] = "New User Created Succeessfully";
+                             
+                        }
+                        else
+                        {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                        } 
                         return LocalRedirect(returnUrl);
                     }
                 }

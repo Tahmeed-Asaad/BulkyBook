@@ -49,6 +49,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Mailkit": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -70,6 +78,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Mimekit": {
+              "target": "Package",
+              "version": "[2.15.1, )"
             }
           },
           "imports": [
@@ -133,6 +145,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Mailkit": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Facebook": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -140,6 +160,10 @@
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Mimekit": {
+              "target": "Package",
+              "version": "[2.15.1, )"
             }
           },
           "imports": [

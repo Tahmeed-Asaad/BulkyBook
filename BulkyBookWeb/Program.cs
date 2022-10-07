@@ -47,6 +47,14 @@ builder.Services.AddSingleton<IEmailSender, EmailSender>();
 //Helps to to add changes in layout.cshtml file from bootswatch Theme
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
+//Adding Facebook login Authorization
+
+builder.Services.AddAuthentication().AddFacebook(options =>
+{
+    options.AppId = "480569667446723";
+    options.AppSecret = "fb8fb90ff583afe46f6b3e197f892778";
+});
+
 //Adding Components for Hot Reload
 
 // Add services to the container.
@@ -65,6 +73,19 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 }
 ) ;
+
+//Adding Session
+
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession( options=>
+    {
+        options.IdleTimeout = TimeSpan.FromMinutes(100);
+        options.Cookie.HttpOnly = true;
+        options.Cookie.IsEssential = true;
+    }
+
+    );
+
 
 var app = builder.Build();
 
@@ -87,6 +108,9 @@ StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey"
 app.UseAuthentication();;
 
 app.UseAuthorization();
+
+//Session in pipeline
+app.UseSession();
 
 app.MapRazorPages();
 

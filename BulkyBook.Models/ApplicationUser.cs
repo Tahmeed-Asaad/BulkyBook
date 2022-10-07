@@ -13,7 +13,7 @@ namespace BulkyBook.Models
     public class ApplicationUser:IdentityUser
     {
         [Required]
-
+        [Display(Name = "Name")]
         public string Name { get; set; }
 
         [Display(Name="Street Address")]
@@ -22,7 +22,6 @@ namespace BulkyBook.Models
         public string? State { get; set; }
 
         public string? PostalCode { get; set; }
-
         public int? CompanyId { get; set; }
 
         [ForeignKey("CompanyId")]

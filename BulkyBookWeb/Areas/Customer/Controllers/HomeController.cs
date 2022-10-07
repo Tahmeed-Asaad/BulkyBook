@@ -1,5 +1,6 @@
 ﻿using BulkyBook.DataAccess.Repository.IRepository;
 using BulkyBook.Models;
+using BulkyBook.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -22,6 +23,18 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         IEnumerable<Product> productList = _db.Product.GetAll(includeProperties: "Category,CoverType");
+
+        var claimsIdentity = (ClaimsIdentity)User.Identity;
+        var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+
+        if (claim!= null)
+        {
+            _db.ApplicationUser.GetFirstorDefault(u => u.Id == claim.Value).UserName = _db.ApplicationUser.GetFirstorDefault(u => u.Id == claim.Value).Name;
+            _db.Save();
+        }
+         
+
+
         return View(productList);
     }
 
@@ -63,6 +76,9 @@ public class HomeController : Controller
         {
 
             _db.ShoppingCart.Add(shoppingCart);
+            _db.Save();
+            //Setting Session, Key, Value pair
+            HttpContext.Session.SetInt32(SD.SessionCart, _db.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value).ToList().Count);
             
 
         }
@@ -70,10 +86,11 @@ public class HomeController : Controller
         else
         {
             _db.ShoppingCart.IncrementCount(cartFromDb, shoppingCart.Count);
+            _db.Save();
 
         }
 
-        _db.Save();
+        
 
         return RedirectToAction(nameof(Index));
     }
