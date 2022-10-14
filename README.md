@@ -1,12 +1,24 @@
 # BulkyBook
 
-## Introduction
+## Table of contents
+
+* [Introduction](#introduction)
+
+* [.NET Core 6.0 Topics](#.net-core-6.0-topics) 
+
+* [Features](#features)
+
+* [Technologies](#technologies)
+
+* [A Short Tour of the Project](#a-short-tour-of-the-project)
+
+* [Setup](#setup)
 
 ## Introduction
 
 This is an e-commerce website built using ASP.NET Core 6.0 MVC framework. This is an online bookstore/bookshop where users can buy books online with a few clicks and save their time and money. Here customers can view the products and place an order by adding them cart with their credit cards. Admin can then view the orders, process them, and do all the transactions. This web application has both B2B and B2C features. The project is a personal one which was built after going through the [course](https://www.dotnetmastery.com/Home/Details?courseId=9) offered by [Bhrugen Patel](https://github.com/bhrugen). The course is also available on [Udemy](https://www.udemy.com/course/complete-aspnet-core-21-course/?referralCode=0533F3B61F426407BE00) where it was selected for their collection of top-rated courses trusted by famous businesses worldwide like: **Nasdaq**, **NetApp**, **Volkswagen**. 
 
-##  ASP.NET Core 6.0 MVC topics covered
+##  .NET Core 6.0 Topics 
 
 * N-Tier Architecture
 * Repository Pattern and UnitOfWork
