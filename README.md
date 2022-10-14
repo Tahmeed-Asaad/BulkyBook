@@ -49,12 +49,12 @@ This is an e-commerce website built using ASP.NET Core 6.0 MVC framework. This i
   * Stripe API
 
 
- ## Demo Screenshots
+ ## Demo
   
 <div> 
  
   <h3> A Short Tour of the Project  </h3>
 
- <img src="BulkyBook/BulkyBookWeb/wwwroot/images/DemoGIFNoLoop.gif">
+ <img src="BulkyBookWeb/wwwroot/images/DemoGIFNoLoop.gif">
 
  </div>
