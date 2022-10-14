@@ -47,3 +47,14 @@ This is an e-commerce website built using ASP.NET Core 6.0 MVC framework. This i
   * Bootstrap v4
   * Identity Framework
   * Stripe API
+
+
+ ## Demo Screenshots
+  
+<div> 
+ 
+  <h3> A Short Tour of the Project  </h3>
+
+ <img src="BulkyBook/BulkyBookWeb/wwwroot/images/DemoGIFNoLoop.gif">
+
+ </div>
