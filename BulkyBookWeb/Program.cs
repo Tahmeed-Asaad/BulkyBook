@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using BulkyBook.Utility;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Stripe;
+using BulkyBook.DataAccess.DbInitializer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +41,10 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddDefaultTokenProvid
 //Instead of Category Repository,now using UnitofWork for efficinecy
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+//Adding Idbinitializer for seeding database to publish in azure
+
+//builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 
 //Needed to add it to create roles in registration.cs
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
@@ -103,6 +108,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+//SeedDatabase();
 
 //Authentication came from adding identity scaffold item. Middleware order is important. Authentication should come before
 app.UseAuthentication();;
@@ -121,3 +127,13 @@ app.MapControllerRoute(
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+void SeedDatabase()
+{   
+    using(var scope= app.Services.CreateScope())
+    {
+        var dbInitializer= scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        dbInitializer.Initialize();
+    }
+}

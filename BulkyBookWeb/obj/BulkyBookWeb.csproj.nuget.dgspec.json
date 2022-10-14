@@ -35,6 +35,9 @@
             "projectReferences": {
               "H:\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj": {
                 "projectPath": "H:\\BulkyBook\\BulkyBook.Models\\BulkyBook.Models.csproj"
+              },
+              "H:\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj": {
+                "projectPath": "H:\\BulkyBook\\BulkyBook.Utility\\BulkyBook.Utility.csproj"
               }
             }
           }

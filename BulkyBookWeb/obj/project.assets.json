@@ -4606,6 +4606,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BulkyBook.Models": "1.0.0",
+          "BulkyBook.Utility": "1.0.0",
           "Mailkit": "2.15.0",
           "Microsoft.AspNetCore.Authentication.Facebook": "6.0.9",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.9",
