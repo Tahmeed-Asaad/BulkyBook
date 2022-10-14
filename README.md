@@ -26,5 +26,16 @@
 * Admin/Employees can change Order Status to processing/shipped
 * When order is cancelled the customers get their money refunded
 * Admin can create/read/update/delete new products with proper description and pricing to be displayed on the website
-* Individual users has to pay first to complete the order
+* Individual users(B2C commerce) has to pay first to complete the order
 * Company users(B2B commerce) can pay later(30 days) after completing their order
+
+ ## Technologies
+  * ASP.NET Core 6.0 MVC
+  * HTML
+  * Javascript
+  * CSS
+  * SCSS
+  * C#
+  * Microsoft SQL Server
+  * Microsoft Visual Studio
+  * Stripe API
