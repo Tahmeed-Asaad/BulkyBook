@@ -58,3 +58,7 @@ This is an e-commerce website built using ASP.NET Core 6.0 MVC framework. This i
  <img src="BulkyBookWeb/wwwroot/images/Compressed.gif">
 
  </div>
+ 
+ ## Setup
+ 
+It is better to use Microsoft Visual Studio IDE to run this project properly. The 'JBulkyBook.sln' file should be opened with the IDE to  built the project and to run it.
