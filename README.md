@@ -16,12 +16,7 @@
 
 ## Features
 
-Following are the User Account that exists by default (Password: Admin123*):
-  * Admin User         
-  * Employee User         
-  * Individual User         
-  * Company User  
-
+* 4 types of users: Admin, Employee, Company, Individual
 * Users can register to the website by their Facebook account or by filling up the form
 * User can place order after adding items to cart
 * Once order is placed one can login as Manager/Admin User and Manage orders and see the flow of application
