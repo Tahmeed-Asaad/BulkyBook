@@ -55,6 +55,6 @@ This is an e-commerce website built using ASP.NET Core 6.0 MVC framework. This i
  
   <h3> A Short Tour of the Project  </h3>
 
- <img src="BulkyBookWeb/wwwroot/images/DemoGIFNoLoop.gif">
+ <img src="BulkyBookWeb/wwwroot/images/Compressed.gif">
 
  </div>
