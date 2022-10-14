@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b0a/LFu5To+ob4OUYdE4DHRftZ7Y7IWM2Pc3TA53kp0=",
+  "Hash": "COCcJHci+et8Y8mWnm94ivSV8BZriP514tX2f0X0aDM=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -1902,6 +1902,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\lawn_leaf.jpg"
+    },
+    {
+      "Identity": "H:\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\02aab4d4-b8d1-4f30-8df1-ab5c07b74d1f.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/products/02aab4d4-b8d1-4f30-8df1-ab5c07b74d1f.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\02aab4d4-b8d1-4f30-8df1-ab5c07b74d1f.jpg"
     },
     {
       "Identity": "H:\\BulkyBook\\BulkyBookWeb\\wwwroot\\images\\products\\121650cc-fb2c-44dc-8693-b836ba7c15e9.jpg",
