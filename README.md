@@ -67,7 +67,7 @@
  
   
 
- <img src="BulkyBookWeb/wwwroot/images/Untitled (1).webm">
+ <img src="BulkyBookWeb/wwwroot/images/final_634a0f0e49ae2f00b7916895_644606.gif">
 
  </div>
  
