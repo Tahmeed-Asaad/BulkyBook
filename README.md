@@ -76,7 +76,7 @@
   
 <div> 
  
-  <h3> Home Page  </h3>
+  <h2> Home Page  </h2>
 
  <img src="BulkyBookWeb/wwwroot/images/Home Page.png">
 
@@ -85,9 +85,42 @@
 
 <div>
 
-  <h3>Adding books to cart </h3>
+  <h2>Adding books to cart </h2>
   
 <img src="BulkyBookWeb/wwwroot/images/Adding books to cart.png">
+ 
+ </div>
+ 
+ <div>
+ 
+  <h2>Shopping Cart</h2>
+  
+<img src="BulkyBookWeb/wwwroot/images/Shopping Cart.png">
+ 
+ </div>
+ 
+  <div>
+ 
+  <h2>Finalizing Order </h2>
+  
+<img src="BulkyBookWeb/wwwroot/images/Finalizing Order.png">
+ 
+ </div>
+ 
+  <div>
+ 
+  <h2>Credit Card Payment </h2>
+  
+<img src="BulkyBookWeb/wwwroot/images/Credit Card Payment.png">
+ 
+ </div>
+ 
+ 
+  <div>
+ 
+  <h2>Successful Order </h2>
+  
+<img src="BulkyBookWeb/wwwroot/images/Successful Order.png">
  
  </div>
  
