@@ -11,6 +11,7 @@
 * [Technologies](#technologies)
 
 * [A Short Tour of the Project](#a-short-tour-of-the-project)
+* [Demo Screenshots](#demo-screenshots)
 
 * [Setup](#setup)
 
