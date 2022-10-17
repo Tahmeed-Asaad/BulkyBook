@@ -15,10 +15,12 @@ html {
 
 body {
   margin-bottom: 60px;
+  
 }
 
-#content-wrap{
-    padding-bottom:5rem;
+#content-wrap {
+    padding-bottom: 5rem;
+    padding-top: 7rem;
 }
 .footer {
     position: absolute;
