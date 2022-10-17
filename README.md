@@ -71,6 +71,26 @@
 
  </div>
  
+ 
+   ## Demo Screenshots
+  
+<div> 
+ 
+  <h3> Home Page  </h3>
+
+ <img src="BulkyBookWeb/wwwroot/images/Home Page.png">
+
+ </div>
+
+
+<div>
+
+  <h3>Adding books to cart </h3>
+  
+<img src="BulkyBookWeb/wwwroot/images/Adding books to cart.png">
+ 
+ </div>
+ 
  ## Setup
  
 It is better to use Microsoft Visual Studio IDE to run this project properly. The 'BulkyBook.sln' file should be opened with the IDE to  built the project and to run it.
